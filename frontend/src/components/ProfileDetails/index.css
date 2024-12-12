@@ -1,0 +1,125 @@
+.profile-details-main-container {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+.profile-details-section {
+    padding: 20px;
+}
+@media screen and (min-width: 768px) {
+    .profile-details-section {
+    padding: 40px;
+    }
+}
+.profile-details-container {
+    background-color: #272727;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.profile-top-row {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+.profile-logo {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.profile-title {
+    font-size: 19px;
+    color: #f1f5f9;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin: 10px 0px;
+    margin-left: 15px;
+}
+
+.more-profile-details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.job-icon {
+    font-size: 18px;
+    color: #f1f5f9;
+    margin-right: 5px;
+}
+.icon-label{
+    color: #f1f5f9;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+
+.more-detail-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.line {
+    border: 1px solid #7e858e;
+}
+.description-heading {
+    color: #f1f5f9;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.profile-description {
+    color: #cbd5e1;
+    font-size: 15px;
+    font-family: 'Roboto';
+    line-height: 24px;
+}
+.interest-heading,
+.location-heading {
+    color: #f1f5f9;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.interest-item {
+    color: #cbd5e1;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.loader-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-failure-view {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.failure-img {
+    width: 350px;
+    margin: 10px;
+}
+.failure-heading {
+    font-size: 25px;
+    color: #f1f5f9;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.failure-description {
+    font-size: 15px;
+    color: #cbd5e1;
+    font-family: 'Roboto';
+}
